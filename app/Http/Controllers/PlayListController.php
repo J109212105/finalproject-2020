@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\PlayList;
 
 class PlayListController extends Controller
 {
     public function index() {
-        $data = \App\Models\PlayList::all();
+        $data = PlayList::all();
         return view("PlayList", compact('data'));
     }
 
