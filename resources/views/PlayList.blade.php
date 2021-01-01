@@ -28,7 +28,7 @@
         </nav>
         <h2><font color="#0080ff">林建成(J109212105)的播放清單</font></h2>
         <hr>
-        <form action="/append/" method="post">
+        <form action="/append/" method="get">
           @csrf
           清單的名稱：<input type="text" name="title" size=40>
           <input type="submit" value="新增">
