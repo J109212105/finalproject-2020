@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/playlist/', [PlayListController::class, 'index']);
-Route::get('/remove/{id}/',[PlayListController::class, 'remove']);
+Route::post('/playlist/', [PlayListController::class, 'index']);
+Route::post('/remove/{id}/',[PlayListController::class, 'remove']);
 Route::post('/append/', [PlayListController::class, 'append']);
 
 Route::get('/lucky/', function () {
