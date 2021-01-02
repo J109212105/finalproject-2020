@@ -51,10 +51,9 @@
                     </svg> -->
                     <dl>
                     <dt><marquee behavior=alternate bgcolor=ffcc00 WIDTH=1200>歡迎蒞臨林建成(J109212105)的期末網站</marquee>
-                    </dl>
-                    <h1 style= "background:gainsboro"><font face="標楷體" color="blue">林建成(J109212105)的期末網站</font></h1>
+                    <dt><h1 style= "background:gainsboro"><font face="標楷體" color="blue">林建成(J109212105)的期末網站</font></h1>
                     <hr>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <dt><nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -68,6 +67,7 @@
                             </div>
                         </div>
                     </nav>
+                    </dl>
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
