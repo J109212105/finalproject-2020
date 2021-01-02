@@ -30,7 +30,7 @@
         <hr color="blue">
         <form action="/append/" method="get">
           @csrf
-          <h3>清單的名稱：<input type="text" name="title" size=40></h3>
+          <tb>清單的名稱：<input type="text" name="title" size=40></tb>
           <input type="submit" value="新增">
         </form>
 
