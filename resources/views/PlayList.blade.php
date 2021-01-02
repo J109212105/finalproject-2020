@@ -26,7 +26,7 @@
                 </div>
             </div>
         </nav>
-        <h2><font color="#0080ff">林建成(J109212105)的播放清單</font></h2>
+        <h2><font color="blue">林建成(J109212105)的播放清單</font></h2>
         <hr>
         <form action="/append/" method="get">
           @csrf

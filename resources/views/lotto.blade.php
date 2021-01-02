@@ -26,7 +26,7 @@
                 </div>
             </div>
         </nav>
-<h2><font color="#0080ff">今日你的幸運數字如下：</font></h2>
+<h2><font color="blue">今日你的幸運數字如下：</font></h2>
 <hr>
 <h3>特別號：{{ $lucky_number }}</h3>
 <ul>
