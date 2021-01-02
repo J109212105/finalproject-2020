@@ -50,7 +50,7 @@
                         </g>
                     </svg> -->
                     <h2><font color="#0080ff">林建成(J109212105)的期末網站</font></h2>
-                    <hr width=500 color=0000ff size=100 align=center>
+                    <hr width=10 color=0000ff size=100 align=center>
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
