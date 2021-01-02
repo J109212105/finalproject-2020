@@ -51,7 +51,7 @@
                     </svg> -->
                     
                     <p><marquee behavior=scroll bgcolor="orange" width=195%>歡迎蒞臨林建成(J109212105)的期末網站</marquee></p><br>
-                    <p><h1><font face="標楷體" color="blue" style="background-color:gainsboro">林建成(J109212105)的期末網站</font></h1>
+                    <p><h1><font face="標楷體" color="blue" style="background-color:gainsboro">林建成(J109212105)的期末網站</font></h1></p>
                     <hr color="blue">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </nav>
-                   </p> 
+                 
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
