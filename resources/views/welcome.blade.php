@@ -50,7 +50,7 @@
                         </g>
                     </svg> -->
                     <dl>
-                    <dt><marquee behavior=scroll bgcolor="orange" width=195% ALIGN="middle"><h3>歡迎蒞臨林建成(J109212105)的期末網站<h3></marquee>
+                    <dt><marquee behavior=scroll bgcolor="orange" width=195% align="middle"><h3>歡迎蒞臨林建成(J109212105)的期末網站<h3></marquee>
                     <dt><h1><font face="標楷體" color="blue" style="background-color:gainsboro">林建成(J109212105)的期末網站</font></h1>
                     <hr color="blue">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
