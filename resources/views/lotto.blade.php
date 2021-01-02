@@ -27,8 +27,8 @@
             </div>
         </nav>
 <h2><font color="blue">今日你的幸運數字如下：</font></h2>
-<hr>
-<h3><font color="red">特別號：{{ $lucky_number }}</h3>
+<hr color="blue">
+<h3>特別號：{{ $lucky_number }}</h3>
 <ul>
 @foreach ($numbers as $number)
 <li>{{ $number }}</li>
