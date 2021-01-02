@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/playlist/', [PlayListController::class, 'index']);
 Route::get('/remove/{id}/',[PlayListController::class, 'remove']);
-Route::post('/append/', [PlayListController::class, 'append']);
+Route::get('/append/', [PlayListController::class, 'append']);
 
 Route::get('/lucky/', function () {
     $lucky_number = rand(1, 49);
