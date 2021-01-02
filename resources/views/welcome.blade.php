@@ -50,6 +50,7 @@
                         </g>
                     </svg> -->
                     <h2><font color="#0080ff">林建成(J109212105)的期末網站</font></h2><p>
+                    <hr width=80% color=0000ff size=2 align=left>
                     <hr>
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
