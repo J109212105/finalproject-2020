@@ -50,7 +50,7 @@
                         </g>
                     </svg> -->
                     <dl>
-                    <dt><marquee behavior=alternate bgcolor=ffcc00 WIDTH=" ">歡迎蒞臨林建成(J109212105)的期末網站</marquee>
+                    <dt><marquee behavior=alternate bgcolor=ffcc00 WIDTH=1000>歡迎蒞臨林建成(J109212105)的期末網站</marquee>
                     <dt><h1 style= "background:gainsboro"><font face="標楷體" color="blue">林建成(J109212105)的期末網站</font></marquee></h1>
                     </dl>
                     <hr>
