@@ -26,7 +26,7 @@
                 </div>
             </div>
         </nav>
-        <h2><font face="標楷體" color="blue">林建成(J109212105)的播放清單</font></h2>
+        <h2><marquee behavior=alternate bgcolor=ffcc00><font face="標楷體" color="blue">林建成(J109212105)的播放清單</font></marquee></h2>
         <hr color="blue">
         <form action="/append/" method="get">
           @csrf
