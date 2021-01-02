@@ -52,7 +52,7 @@
                     <dl>
                     <dt><marquee direction="right" behavior=alternate bgcolor="orange" width=195%>歡迎蒞臨林建成(J109212105)的期末網站</marquee>
                     <dt><h1 style= "background:gainsboro"><font face="標楷體" color="blue">林建成(J109212105)的期末網站</font></h1>
-                    </dl>
+                    
                     <hr>
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                     </nav>
-                
+                    </dl>
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
