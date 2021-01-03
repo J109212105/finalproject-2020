@@ -37,7 +37,7 @@
         }
         </style>
     </head>
-    
+
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
@@ -53,7 +53,7 @@
                     @endif
                 </div>
             @endif
-                <div class="hidden fixed top-10 left-0 px-6 py-4 sm:block">
+                <div class="hidden fixed top-1 left-0 px-6 py-4 sm:block">
                     <h2> Paris</h2>
                     <p>Paris is the capital of France.</p>
                 </div>
