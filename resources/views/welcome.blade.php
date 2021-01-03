@@ -37,7 +37,7 @@
         }
         </style>
     </head>
-    <body class="city">
+    <body>
         <h2> Paris</h2>
         <p>Paris is the capital of France.</p>
     </body>
