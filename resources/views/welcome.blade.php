@@ -29,10 +29,10 @@
 
         <style>
         .city {
-               background-color: tomato;
                color: white; 
                position: absolute;
                top: 10px;
+               padding: 20px;
         }
         </style>
     </head>
