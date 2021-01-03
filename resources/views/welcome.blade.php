@@ -71,6 +71,7 @@
                     <hr color="blue" width=103%>
                     -->
                     <h1><font face="標楷體" color="blue">林建成(J109212105)的期末網站</font></h1>
+                    <hr>
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
