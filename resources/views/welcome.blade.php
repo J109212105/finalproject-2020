@@ -29,7 +29,7 @@
 
         <style>
         .city {
-               color: white; 
+               color: blake; 
                position: absolute;
                top: 10px;
                padding: 20px;
