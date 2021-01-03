@@ -66,9 +66,11 @@
                         </g>
                     </svg>
                     <marquee behavior=scroll bgcolor="orange" width=103%><h4><font face="標楷體">۞歡迎蒞臨林建成(J109212105)的期末網站۞</font><h4></marquee>
-                    -->
+                    
                     <marquee behavior=slide bgcolor="gainsboro" width=103% scrollamount="100"><h1><font face="標楷體" color="blue">林建成(J109212105)的期末網站</font></h1></marquee>
                     <hr color="blue" width=103%>
+                    -->
+                    <h4><font face="標楷體">۞歡迎蒞臨林建成(J109212105)的期末網站۞</font><h4>
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="#">Navbar</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
