@@ -32,6 +32,7 @@
                color: blake; 
                position: absolute;
                top: 10px;
+               left: 30px;
                padding: 20px;
         }
         </style>
