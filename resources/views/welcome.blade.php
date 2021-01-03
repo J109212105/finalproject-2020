@@ -27,7 +27,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="top-1 left-1">       
+        <div class="absolute top-1 left-1">       
            <h2> Paris</h2>
            <p>Paris is the capital of France.</p>
         </div>
