@@ -28,9 +28,9 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-        <marquee behavior=scroll bgcolor="orange" width=103%><h4><font face="標楷體">۞歡迎蒞臨林建成(J109212105)的期末網站۞</font><h4></marquee>
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                <marquee behavior=scroll bgcolor="orange" width=103%><h4><font face="標楷體">۞歡迎蒞臨林建成(J109212105)的期末網站۞</font><h4></marquee>
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
