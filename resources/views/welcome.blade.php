@@ -36,15 +36,10 @@
     </head>
 
     <body>
+        <h2 class="city">Paris</h2>
+        <p class="city">Paris is the capital of France.</p>
 
-<h2>Different Elements Can Share Same Class</h2>
-
-<p>Even if the two elements do not have the same tag name, they can both point to the same class, and get the same CSS styling:</p>
-
-<h2 class="city">Paris</h2>
-<p class="city">Paris is the capital of France.</p>
-
-</body>
+    </body>
 
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
