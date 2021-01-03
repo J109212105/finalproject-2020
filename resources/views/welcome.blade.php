@@ -41,7 +41,7 @@
                     @endif
                 </div>
             @endif
-                <div class="hidden fixed top-0 left-0 px-0 py-0 sm:block">
+                <div class="hidden fixed top-0 left-0 px-0 py-10 sm:block">
                     <h2> Paris</h2>
                     <p>Paris is the capital of France.</p>
                 </div>
