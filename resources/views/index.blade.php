@@ -62,7 +62,7 @@
 @endauth
 <table class="table table-striped">
       <tr>
-          <th>編號</th><th>馬路消息</th><th>時間</th>
+          <th>編號</th><th>馬路消息</th><th>時間</th><th>管理</th>
       </tr>
 @foreach ($titles as $item)
     <tr>
