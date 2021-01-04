@@ -58,7 +58,7 @@
 @auth
 <form method='get' action="/insert/">
       @csrf
-最新消息： <input type=text size=40 name=title>
+最新消息： <input type=text size=40 name=title require />
 <input type=submit value="新增">
 </form>
 @endauth
