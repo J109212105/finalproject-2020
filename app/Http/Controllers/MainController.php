@@ -8,20 +8,25 @@ use App\Models\Headlines;
 
 class MainController extends Controller
 {
-    function index() {
+    public function index() {
     	$titles = Headlines::all();
     	return view("index", compact('titles'));
     }
 
-    function insert(Request $req) {
+    public function insert(Request $req) {
     	$title = $req->input('title');
     	$data = new Headlines;
     	$data->title = $title;
     	$data->save();
     	return redirect("/");
+	}
+
+	public function remove($id) {
+        Headlines::where("id", $id)->delete();
+        return redirect("/");
     }
 
-    function logout() {
+    public function logout() {
     	Auth::logout();
     	return redirect("/");	
     }

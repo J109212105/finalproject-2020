@@ -12,20 +12,40 @@
   </head>
   <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-link active" href="/">首頁 <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="/playlist/">播放清單</a>
-                <a class="nav-link" href="/lucky/">樂透明牌</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </div>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">J109212105</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+      @if (Route::has('login'))
+      @auth
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/lotto/">樂透</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout/">登出</a>
+        </li>
+        @else
+        <li class="nav-item">
+          <a class="nav-link" href="/login/">登入</a>
+        </li>
+        @if (Route::has('register'))
+        <li class="nav-item">
+          <a class="nav-link" href="/register/" tabindex="-1" aria-disabled="true">註冊</a>
+        </li>
+        @endif
+        @endif
+        @endif
+      </ul>
+    </div>
+  </div>
+</nav>
 <h2><font face="標楷體" color="blue">今日你的幸運數字如下：</font></h2>
 <hr color="blue">
 <h3>特別號：{{ $lucky_number }}</h3>
