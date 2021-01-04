@@ -14,7 +14,8 @@
     <div class="container">
     @if (Route::has('login'))
     @auth
-    <h1>林建成的期末作業</h1>
+    <marquee behavior=slide bgcolor="gainsboro" width=103% scrollamount="100"><h1><font face ="標楷體" color="blue">林建成(J109212105)的期末網站</font></h1></marquee>
+    <hr color="blue" width=103%>
     @else
     <h3>林建成的期末作業</h3>
     @endif
