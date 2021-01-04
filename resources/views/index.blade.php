@@ -30,10 +30,11 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
       @if (Route::has('login'))
-      @auth
+      
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">首頁</a>
         </li>
+        @auth
         <li class="nav-item">
           <a class="nav-link" href="/lotto/">樂透</a>
         </li>
