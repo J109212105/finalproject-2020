@@ -18,6 +18,7 @@
     <marquee behavior=slide bgcolor="gainsboro" width=103% scrollamount="100"><h1><font face ="標楷體" color="blue">林建成的期末作業</font></h1></marquee>
     <hr color="blue" width=103%>
     "{{ __('Name') }}"
+    "{{ __('Email') }}"
     @else
     <h3>林建成的期末作業</h3>
     @endif
