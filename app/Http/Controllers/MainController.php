@@ -31,11 +31,11 @@ class MainController extends Controller
     	return redirect("/");	
 	}
 	
-	public function updateProfile(Authenticatable $user) {
-		if ($request->user())
-        {
-			$user = Auth::user();
-			return $user;
-		}
+	public function updateProfile(Request $request)
+    {
+        if ($request->user()) {
+			$loguser=$user->getName();
+			return "$loguser";
+        }
 	}
 }
