@@ -17,7 +17,7 @@
     <marquee behavior=scroll bgcolor="orange" width=103% scrollamount="10"><h4><font face="標楷體">歡迎蒞臨۞林建成的期末網站۞</font><h4></marquee>
     <marquee behavior=slide bgcolor="gainsboro" width=103% scrollamount="100"><h1><font face ="標楷體" color="blue">林建成的期末作業</font></h1></marquee>
     <hr color="blue" width=103%>
-    $user
+    $loginuser
     @else
     <h3>林建成的期末作業</h3>
     @endif
