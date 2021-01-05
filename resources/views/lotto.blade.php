@@ -62,6 +62,13 @@
     </div>
   </div>
 </nav>
+@if (Route::has('login'))
+    @auth
+    <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"><font color="yellow"><?php $user = Auth::user()->name; echo $user;?></font></span></font></h4>
+    @else
+    <h4><font face="標楷體">用戶名 ：</h4>
+    @endif
+    @endif
 <h2><font face="標楷體" color="blue">今日你的幸運數字如下：</font></h2>
 <hr color="blue">
 <h3>特別號：{{ $lucky_number }}</h3>
