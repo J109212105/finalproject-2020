@@ -20,7 +20,7 @@
     <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"><?php $user = Auth::user()->name; echo $user;?></span></font></h4>
     @else
     <h2><font face="標楷體" color="blue">林建成的期末作業</font></h2>
-    <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"></span></font></h4>
+    <h4><font face="標楷體">用戶名 ：</h4>
     @endif
     @endif
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
