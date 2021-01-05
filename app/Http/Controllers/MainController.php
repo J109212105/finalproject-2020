@@ -35,7 +35,7 @@ class MainController extends Controller
 		if ($request->user())
         {
 			$user = Auth::user();
-			return $user
+			return $user;
 		}
 	}
 }
