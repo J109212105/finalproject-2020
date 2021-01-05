@@ -8,6 +8,9 @@ Route::get('/', [MainController::class, "index"]);
 Route::get('/insert/', [MainController::class, "insert"]);
 Route::get('/logout/', [MainController::class, "logout"]);
 Route::get('/remove/{id}/',[MainController::class, 'remove']);
+Route::get('/laravel/', function () {
+    return view('laravel');
+});
 
 Route::get('/lotto/', function () {
     $lucky_number = rand(1, 49);

@@ -17,9 +17,8 @@
     <marquee behavior=scroll bgcolor="orange" width=103% scrollamount="10"><h4><font face="標楷體">歡迎蒞臨۞林建成的期末網站۞</font><h4></marquee>
     <marquee behavior=slide bgcolor="gainsboro" width=103% scrollamount="100"><h1><font face ="標楷體" color="blue">林建成的期末作業</font></h1></marquee>
     <hr color="blue" width=103%>
-    {{$user->getName()}}
     @else
-    <h3>林建成的期末作業</h3>
+    <h2><font face="標楷體" color="blue">林建成的期末作業</font></h2>
     @endif
     @endif
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,15 +29,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-      @if (Route::has('login'))
-      
+      @if (Route::has('login'))    
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">首頁</a>
         </li>
-        @auth
+        <li class="nav-item">
+          <a class="nav-link" href="/laravel/">Laravel</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/lotto/">樂透</a>
         </li>
+        @auth
         <li class="nav-item">
           <a class="nav-link" href="/logout/">登出</a>
         </li>
@@ -73,7 +74,9 @@
         <td>{{ $item -> id }}</td>
         <td>{{ $item -> title }}</td>
         <td>{{ $item -> created_at }}</td>
+        @auth
         <td><a href="/remove/{{ $item->id }}/">刪除</a></td>
+        @endauth
     </tr>
 @endforeach
 </table>

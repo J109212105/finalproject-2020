@@ -20,14 +20,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-      @if (Route::has('login'))
-      @auth
+      @if (Route::has('login'))    
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">首頁</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/laravel/">Laravel</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/lotto/">樂透</a>
         </li>
+        @auth
         <li class="nav-item">
           <a class="nav-link" href="/logout/">登出</a>
         </li>
