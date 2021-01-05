@@ -35,7 +35,7 @@ class MainController extends Controller
 		if ($request->user())
         {
 			$loginuser=$user->getId();
-            return "$loginuser";
+            return "loginuser";
 		}
 	}
 }
