@@ -26,7 +26,7 @@ class MainController extends Controller
         return redirect("/");
     }
 
-    public function logout() {
+    public function mylogout() {
     	Auth::logout();
     	return redirect("/");	
 	}
