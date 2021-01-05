@@ -17,7 +17,7 @@
     <marquee behavior=scroll bgcolor="orange" width=100% scrollamount="10"><h4><font face="標楷體">歡迎蒞臨۞林建成的期末網站۞</font><h4></marquee>
     <marquee behavior=slide bgcolor="gainsboro" width=100% scrollamount="100"><h1><font face ="標楷體" color="blue">林建成的期末作業</font></h1></marquee>
     <hr color="blue" width=100%>
-    <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"><font color="yellow"><?php $user = Auth::user()->name; echo $user;?></font></span></font></h4>
+    <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"><font color="yellow"><?php $username = Auth::user()->name; echo $username;?></font></span></font></h4>
     @else
     <h2><font face="標楷體" color="blue">林建成的期末作業</font></h2>
     <h4><font face="標楷體">用戶名 ：</h4>

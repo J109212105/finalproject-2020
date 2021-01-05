@@ -29,7 +29,7 @@
            @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                    <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"><font color="yellow"><?php $user = Auth::user()->name; echo $user;?></font></span></font></h4>
+                    <h4><font face="標楷體">用戶名 ： <span class="badge bg-secondary"><font color="yellow"><?php $username = Auth::user()->name; echo $username;?></font></span></font></h4>
                         <!--<a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>-->
                     @else
                         <h4><font face="標楷體">用戶名 ：</h4>
