@@ -30,12 +30,4 @@ class MainController extends Controller
     	Auth::logout();
     	return redirect("/");	
 	}
-	
-	public function updateProfile(Request $request)
-    {
-        if ($request->user()) {
-			$loguser=$user->getName();
-			return "$loguser";
-        }
-	}
 }
