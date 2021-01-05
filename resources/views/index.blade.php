@@ -54,15 +54,15 @@
         </li>       
         @auth
         <li class="nav-item">
-          <a class="nav-link" href="/logout/">登出</a>
+          <a class="nav-link" href="/logout">登出</a>
         </li>
         @else
         <li class="nav-item">
-          <a class="nav-link" href="/login/">登入</a>
+          <a class="nav-link" href="/login">登入</a>
         </li>
         @if (Route::has('register'))
         <li class="nav-item">
-          <a class="nav-link" href="/register/" tabindex="-1" aria-disabled="true">註冊</a>
+          <a class="nav-link" href="/register" tabindex="-1" aria-disabled="true">註冊</a>
         </li>
         @endif
         @endif
