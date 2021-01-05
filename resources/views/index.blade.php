@@ -34,11 +34,24 @@
           <a class="nav-link active" aria-current="page" href="/">首頁</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="https://104.es/">何老師課程教材</a>
+        </li>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/laravel/">Laravel</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/lotto/">樂透</a>
+          <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.heroku.com/">Heroku</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/lotto/">樂透</a>
+        </li>       
         @auth
         <li class="nav-item">
           <a class="nav-link" href="/logout/">登出</a>
