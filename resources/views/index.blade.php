@@ -73,10 +73,7 @@
         <td>{{ $item -> id }}</td>
         <td>{{ $item -> title }}</td>
         <td>{{ $item -> created_at }}</td>
-        @if (Route::has('login'))
-        @auth
         <td><a href="/remove/{{ $item->id }}/">刪除</a></td>
-        @endif
     </tr>
 @endforeach
 </table>
