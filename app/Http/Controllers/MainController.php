@@ -34,7 +34,7 @@ class MainController extends Controller
 	public function updateProfile(Authenticatable $user) {
 		if ($request->user())
         {
-            return view('welcome');
+            return "name";
 		}
 	}
 	}
