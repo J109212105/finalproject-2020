@@ -34,7 +34,8 @@ class MainController extends Controller
 	public function updateProfile(Authenticatable $user) {
 		if ($request->user())
         {
-            return "name";
+			$user->getId();
+            return "$user";
 		}
 	}
 }
