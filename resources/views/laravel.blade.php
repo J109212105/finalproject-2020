@@ -78,7 +78,7 @@
           <a class="nav-link" href="https://www.heroku.com/">Heroku</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/lotto/">樂透</a>
+          <a class="nav-link" href="/lotto">樂透</a>
         </li>
         @auth
         <li class="nav-item">

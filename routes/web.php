@@ -11,7 +11,7 @@ Route::get('/laravel/', function () {
     return view('laravel');
 });
 
-Route::get('/lotto/', function () {
+Route::get('/lotto', function () {
     $lucky_number = rand(1, 49);
     $numbers = array();
     for ($i=0; $i<6; $i++) {
