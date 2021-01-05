@@ -29,5 +29,13 @@ class MainController extends Controller
     public function logout() {
     	Auth::logout();
     	return redirect("/");	
-    }
+	}
+	
+	public function updateProfile(Authenticatable $user) {
+		if ($request->user())
+        {
+            return view('welcome');
+		}
+	}
+	}
 }
