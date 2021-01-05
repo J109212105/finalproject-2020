@@ -54,7 +54,7 @@
         </li>       
         @auth
         <li class="nav-item">
-          <a class="nav-link" href="/logout">登出</a>
+          <a class="nav-link" href="/mylogout">登出</a>
         </li>
         @else
         <li class="nav-item">
