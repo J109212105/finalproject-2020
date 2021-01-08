@@ -92,6 +92,9 @@
         @auth
         <td><a href="/remove/{{ $item->id }}/">刪除</a></td>
         @endauth
+        @guest
+        <td>刪除</td>
+        @endguest
     </tr>
 @endforeach
 </table>
