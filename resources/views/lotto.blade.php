@@ -11,6 +11,21 @@
     <title>林建成(J109212105)的樂透明牌</title>
   </head>
   <body>
+      <script language="JavaScript" type="text/javascript">
+        function ShowTime()
+        {
+            var NowDate = new Date();
+            var d = NowDate.getDay();
+            var dayNames = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+            document.getElementById('showbox').innerHTML = '目前時間：' + NowDate.toLocaleString() + '（' + dayNames[d] + '）';
+            setTimeout('ShowTime()', 1000);
+        }
+    </script>
+    <body onload="ShowTime()">
+    <form id="form1" runat="server">
+        <div style="font-family:sans-serif;border:1px #ccc solid;padding:0px;" id = "showbox"></div>
+    </form>
+    </body>
     <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
